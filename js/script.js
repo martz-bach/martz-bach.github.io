@@ -25,7 +25,7 @@ $('.forms').submit(function(e) {
 let inputs = document.querySelector('.inp'); 
 let buttons = document.querySelector('.btn'); 
 buttons.onclick = function(){
-    inputs.value = ''
+    setTimeout(() => inputs.value = '', 2000);
 };
 
 buttons.ontouchstart = function(){
