@@ -29,5 +29,5 @@ buttons.onclick = function(){
 };
 
 buttons.ontouchstart = function(){
-    inputs.value = ''
+    setTimeout(() => inputs.value = '', 2000);
 };
