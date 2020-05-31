@@ -27,3 +27,7 @@ let buttons = document.querySelector('.btn');
 buttons.onclick = function(){
     inputs.value = ''
 };
+
+buttons.ontouchstart = function(){
+    inputs.value = ''
+};
