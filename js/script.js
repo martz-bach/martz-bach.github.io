@@ -28,6 +28,6 @@ buttons.onclick = function(){
     setTimeout(() => inputs.value = '', 2000);
 };
 
-buttons.ontouchstart = function(){
+buttons.ontouchend = function(){
     setTimeout(() => inputs.value = '', 2000);
 };
