@@ -21,3 +21,9 @@ $('.forms').submit(function(e) {
     });
     return false;
 });
+
+let inputs = document.querySelector('.inp'); 
+let buttons = document.querySelector('.btn'); 
+buttons.onclick = function(){
+    inputs.value = ''
+};
